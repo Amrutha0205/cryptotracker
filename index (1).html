@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="app.css">
+    <title>Crypto Tracker</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <h1 class="col-md-7 text-center" >Crypto Currency</h1>
+            <h3 class="col-md-7 text-center">Price Tracker</h3>
+            <h5 class="col-md-7 text-center">By AlphaAtul</h5>
+            <div class="col-md-6 row justify-content-center main fix" id="allContaint">
+                <div class="col-10">
+                    <form action="" id="searchForm">
+                        <div class="form-row">
+                            <div class="col-12 form-group">
+                                <label for="xyz"><b>COIN TYPE</b></label>
+                                <select name="coinType" class="form-control" id="xyz">
+                                    <option value="bitcoin">Bitcoin</option>
+                                    <option value="dogecoin">Dogecoin</option>
+                                    <option value="ethereum">Ethereum</option>
+                                    <option value="polkadot">Polkadot</option>
+                                    <option value="tether">Tether</option>
+                                </select>
+                            </div>
+                        </div>                        
+                        <button type="submit" class="col-12 btn btn-primary">Get Price</button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-7 text-center row justify-content-center" style="margin-top:50px;">
+                <table class="p-4 col-md-7" border="1px" style="background-color: white; font-weight: 700;" id="tableResult">
+                </table>
+            </div>       
+        </div>        
+    </div>    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+    <script type='text/javascript' data-cfasync='false'>window.purechatApi = { l: [], t: [], on: function () { this.l.push(arguments); } }; (function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({c: '97e3c6d4-2c16-46b4-a601-44a9087419d4', f: true }); done = true; } }; })();</script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DYNDJ1NTN8"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-DYNDJ1NTN8');
+    </script>
+</body>
+</html>

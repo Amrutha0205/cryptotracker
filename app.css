@@ -1,0 +1,20 @@
+body{    
+    background-size:cover;
+    background-image:url("https://www.techbuzzonline.com/wp-content/uploads/2018/05/15-bitcoin-blockchain-currency-1280x720.jpg");
+}
+h3,h5{
+    color:#fdfffd;
+}
+label{
+    color: aliceblue;
+}
+h1{
+    color: rgb(141, 103, 8);
+    border-color: black;
+}
+.fix{
+    border:2px solid #030942;
+    border-radius: 20px;
+    background-color:#014768 ;
+    padding: 10px;
+}
